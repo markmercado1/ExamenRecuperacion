@@ -1,7 +1,8 @@
 
 package com.example.jgtmsauth.security;
 
-import com.emm.authservice.models.AuthUser;
+
+import com.example.jgtmsauth.models.AuthUser;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;

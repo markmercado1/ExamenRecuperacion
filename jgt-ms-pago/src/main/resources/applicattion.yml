@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ms-auth
+    name: jgt-ms-pago
   profiles:
     active: development
   config:

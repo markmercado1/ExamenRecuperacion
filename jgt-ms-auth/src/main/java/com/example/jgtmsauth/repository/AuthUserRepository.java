@@ -1,6 +1,7 @@
 package com.example.jgtmsauth.repository;
 
-import com.emm.authservice.models.AuthUser;
+
+import com.example.jgtmsauth.models.AuthUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

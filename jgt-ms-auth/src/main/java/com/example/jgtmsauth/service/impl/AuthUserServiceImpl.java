@@ -1,12 +1,13 @@
 package com.example.jgtmsauth.service.impl;
 
 
-import com.emm.authservice.dtos.AuthUserDto;
-import com.emm.authservice.dtos.TokenDto;
-import com.emm.authservice.models.AuthUser;
-import com.emm.authservice.repository.AuthUserRepository;
-import com.emm.authservice.security.JwtProvider;
-import com.emm.authservice.service.AuthUserService;
+
+import com.example.jgtmsauth.dtos.AuthUserDto;
+import com.example.jgtmsauth.dtos.TokenDto;
+import com.example.jgtmsauth.models.AuthUser;
+import com.example.jgtmsauth.repository.AuthUserRepository;
+import com.example.jgtmsauth.security.JwtProvider;
+import com.example.jgtmsauth.service.AuthUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

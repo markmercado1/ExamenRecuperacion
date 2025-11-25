@@ -1,8 +1,8 @@
 package com.example.jgtmsauth.service;
 
-import com.emm.authservice.dtos.AuthUserDto;
-import com.emm.authservice.dtos.TokenDto;
-import com.emm.authservice.models.AuthUser;
+import com.example.jgtmsauth.dtos.AuthUserDto;
+import com.example.jgtmsauth.dtos.TokenDto;
+import com.example.jgtmsauth.models.AuthUser;
 
 public interface AuthUserService {
     AuthUser save(AuthUserDto authUserDto);

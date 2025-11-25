@@ -1,10 +1,10 @@
 package com.example.jgtmsauth.controller;
 
 
-import com.emm.authservice.dtos.AuthUserDto;
-import com.emm.authservice.dtos.TokenDto;
-import com.emm.authservice.models.AuthUser;
-import com.emm.authservice.service.AuthUserService;
+import com.example.jgtmsauth.dtos.AuthUserDto;
+import com.example.jgtmsauth.dtos.TokenDto;
+import com.example.jgtmsauth.models.AuthUser;
+import com.example.jgtmsauth.service.AuthUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
