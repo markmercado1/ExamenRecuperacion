@@ -12,16 +12,10 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: ms-participants-service
-          uri: lb://ms-participants-service
+        - id: jgt-ms-pago
+          uri: lb://jgt-ms-pago
           predicates:
-            - Path=/participants/**
-          filters:
-            - name: AuthFilter
-        - id: ms-events-service
-          uri: lb://ms-events-service
-          predicates:
-            - Path=/events/**, /sessions/**
+            - Path=/pago/**
           filters:
             - name: AuthFilter
         - id: ms-auth-service
